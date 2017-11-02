@@ -60,10 +60,10 @@
                                                                                 <applicationName>hrb-automate</applicationName> 
                                                                                 <muleVersion>3.8.4</muleVersion>
                                                                                 <deploymentType>cloudhub</deploymentType>
-                                                                                <username>jayshri_oulkar88</username>
+                                                                                <username>jayshri_oulkar16</username>
                                                                                 <password>Alchemy1</password>
-                                                                                <environment>CL-DEV</environment>
-                                                                                <businessGroup>HRB-HCM</businessGroup>
+                                                                                <environment>CLDEV</environment>
+                                                                               
                                                                                 
                                                                 </configuration>
                                                                 
