@@ -57,15 +57,14 @@
                                                                 <artifactId>mule-maven-plugin</artifactId>
                                                                 <version>2.2.1</version>
                                                                 <configuration>
-                                                                                <applicationName>hrb-proc-kenexa-hire-rehire-management</applicationName> 
+                                                                                <applicationName>hrb-automate</applicationName> 
                                                                                 <muleVersion>3.8.4</muleVersion>
                                                                                 <deploymentType>cloudhub</deploymentType>
                                                                                 <username>jayshri_oulkar88</username>
                                                                                 <password>Alchemy1</password>
                                                                                 <environment>CL-DEV</environment>
                                                                                 <businessGroup>HRB-HCM</businessGroup>
-                                                                                <workers>1</workers>
-                                                                    <workerType>Micro</workerType>
+                                                                                
                                                                 </configuration>
                                                                 
                                                                 
