@@ -51,6 +51,41 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			 <plugin>
+                                                                <groupId>org.mule.tools.maven</groupId>
+                                                                <artifactId>mule-maven-plugin</artifactId>
+                                                                <version>2.2.1</version>
+                                                                <configuration>
+                                                                                <applicationName>hrb-proc-kenexa-hire-rehire-management</applicationName> 
+                                                                                <muleVersion>3.8.4</muleVersion>
+                                                                                <deploymentType>cloudhub</deploymentType>
+                                                                                <username>jayshri_oulkar88</username>
+                                                                                <password>Alchemy1</password>
+                                                                                <environment>CL-DEV</environment>
+                                                                                <businessGroup>HRB-HCM</businessGroup>
+                                                                                <workers>1</workers>
+                                                                    <workerType>Micro</workerType>
+                                                                </configuration>
+                                                                
+                                                                
+                                                                <executions>
+                                                                                <execution>
+                                                                                                <id>deploy</id>
+                                                                                                <phase>deploy</phase>
+                                                                                                <goals>
+                                                                                                                <goal>deploy</goal>
+                                                                                                </goals>
+                                                                                </execution>
+                                                                </executions>
+                                                </plugin>
+                                                <plugin>
+                                                                <groupId>org.apache.maven.plugins</groupId>
+                                                                <artifactId>maven-deploy-plugin</artifactId>
+                                                                <configuration>
+                                                                                <skip>true</skip>
+                                                                </configuration>
+                                                </plugin>
 		</plugins>
 	</build>
 
