@@ -57,21 +57,23 @@
                                                                 <artifactId>mule-maven-plugin</artifactId>
                                                                 <version>2.2.1</version>
                                                                 <configuration>
-                                                                                <applicationName>hrb-automate</applicationName> 
                                                                                 <muleVersion>3.8.4</muleVersion>
+																				<applicationName>cloudhube-hrb-automate</applicationName>
+																				<application>target/hrb-automate-1.0.0-SNAPSHOT.zip</application>
+																				<businessGroup>Accenture1</businessGroup>
                                                                                 <deploymentType>cloudhub</deploymentType>
                                                                                 <username>jayshri_oulkar16</username>
                                                                                 <password>Alchemy1</password>
-                                                                                <environment>CLDEV</environment>						<businessGroup>Accenture1</businessGroup>                                                                                
-                                                                </configuration>
-                                                                
-                                                                
+                                                                                <environment>CLDEV</environment>
+																				<redeploy>true</redeploy>
+																				</configuration>
+                                                                                                                           
                                                                 <executions>
                                                                                 <execution>
                                                                                                 <id>deploy</id>
                                                                                                 <phase>deploy</phase>
                                                                                                 <goals>
-                                                                                                                <goal>deploy</goal>
+                                                                                                  <goal>deploy</goal>
                                                                                                 </goals>
                                                                                 </execution>
                                                                 </executions>
